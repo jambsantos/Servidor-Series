@@ -11,8 +11,8 @@ router.patch("/:id/liked",controller.updateLikedStatus)
 
 //Rotas para trabalhar com  temporadas e episódios
 router.post("/:id/season", controller.postSeriesSeason) 
-//router.post("/:id/season/:seasonId/episode",controller.postSeriesEpisode) 
-// router.delete("/series/:id/season/:seasonId",controller.deleteSeriesSeason) 
+router.post("/:id/season/:seasonId/episode",controller.postSeriesEpisode) 
+router.delete("/:id/season/:seasonId",controller.deleteSeriesSeason) 
 // router.delete("/series/:id/season/:seasonId/episode/:episodeId",controller.deleteSeriesEpisode)  
 // router.patch("/series/:id/season/:seasonId/episode/:episodeId/watched",controller.updateWatchedStatus) 
 
