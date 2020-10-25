@@ -67,7 +67,7 @@ const updateLikedStatus = (req,res) => {
     const newLiked = req.body.liked
 
     const serieToUpdate = series.find((serie) => serie.id == serieId);
-    const serieIndex = serie.indexOf(serieToUpdate)
+    const serieIndex = series.indexOf(serieToUpdate)
 
     if (serieIndex>=0){
         serieToUpdate.liked = newLiked;
