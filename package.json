@@ -1,0 +1,24 @@
+{
+  "name": "servidor-series",
+  "version": "1.0.0",
+  "description": "Nessa api queremos poder cadastrar séries, cada uma com inúmeras temporadas e cada temporada com uma lista de episódios.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jambsantos/Servidor-Series.git"
+  },
+  "author": "Jessica Montenegro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jambsantos/Servidor-Series/issues"
+  },
+  "homepage": "https://github.com/jambsantos/Servidor-Series#readme"
+}
